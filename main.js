@@ -34,3 +34,6 @@ if ( output === 0 ) {
     output = i
 }
 
+// stampa dei risultati in console
+
+console.log(output);
