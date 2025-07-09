@@ -40,4 +40,12 @@ console.log(output);
 
 }
 
+// Stampiamo i numeri da 1 a 100
+for (let i = 1; i <= 100; i++) {
+    let output = ""; // Inizializziamo una stringa vuota per la stampa finale in console
+
+    // Se il numero è divisibile per 3 e per 5, stampiamo "FizzBuzz"
+
+    if (i % 3 === 0 && i % 5 === 0) // && operatore logico - entrambe le condizioni devono essere vere
+    output = "FizzBuzz"; 
 
