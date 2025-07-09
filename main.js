@@ -28,5 +28,9 @@ if (i % 5 === 0 ) {
 /* Se il numero è divisibile sia per 3 che per 5, stampiamo "FizzBuzz" 
 (La stampa sarà automatica secondo i passaggi precedenti)*/
 
+// Se i criteri di divisibilità precedenti non vengono rispettati, la stampa sarà il numero stesso.
 
+if ( output === 0 ) {
+    output = i
+}
 
