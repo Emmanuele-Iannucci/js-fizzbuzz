@@ -2,7 +2,7 @@
 // Per ogni numero:
 //   - Se è divisibile per 3, stampiamo "Fizz"
 //   - Se è divisibile per 5, stampiamo "Buzz"
-//   - Se è divisibile per sia 3 che 5, stampiamo "FizzBuzz"
+//   - Se è divisibile sia per 3 che per 5, stampiamo "FizzBuzz"
 //   - Altrimenti stampiamo il numero stesso
 // Usiamo l'operatore modulo (%) per verificare la divisibilità
 // Ps. per ragionare sui multipli è necessario ragionare sulla divisibilità
@@ -24,3 +24,9 @@ if (i % 3 === 0 ) {
 if (i % 5 === 0 ) {
     output += "Buzz"
 }
+
+/* Se il numero è divisibile sia per 3 che per 5, stampiamo "FizzBuzz" 
+(La stampa sarà automatica secondo i passaggi precedenti)*/
+
+
+
