@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FizzBuzz</title>
 </head>
 <body>
-    <script src="/main.js"></script>
+   <div id="output"></div>
+   <script src="/main.js"></script>
+   <script>
+    // dichiarazione fuori dal ciclo
+    let outputDiv = document.getElementById('output');
+    // logica seguita nel blocco script
+    for (let i = 1; i <= 100; i++) {
+      let output = "";
+
+      if (i % 3 === 0) output += "Fizz";
+      if (i % 5 === 0) output += "Buzz";
+      if (output === "") output = i;
+    // stampa nella pagina e a capo 
+    outputDiv.innerHTML += output + "<br>";
+    }
+   </script>
+
 </body>
 </html>
