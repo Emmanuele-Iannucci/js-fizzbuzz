@@ -6,3 +6,12 @@
 //   - Altrimenti stampiamo il numero stesso
 // Usiamo l'operatore modulo (%) per verificare la divisibilità
 // Ps. per ragionare sui multipli è necessario ragionare sulla divisibilità
+
+//Stampiamo i numeri da 1 a 100
+for (let i = 1; i <= 100; i++) {
+    /* inizializziamo l'output preparando una stringa vuota
+    da stampare in modo da poterla utilizzare nei casi specifici che seguiranno
+    */
+   let output: " ";
+}
+
