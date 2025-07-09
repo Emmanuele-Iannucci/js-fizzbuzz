@@ -17,7 +17,7 @@ const container = document.getElementById("output");
 
 // Ciclo da 1 a 100
 for (let i = 1; i <= 100; i++) {
-    let output = "";
+    let output = i;
 
     if (i % 3 === 0 && i % 5 === 0) {
         output = "FizzBuzz";
@@ -25,9 +25,7 @@ for (let i = 1; i <= 100; i++) {
         output = "Fizz";
     } else if (i % 5 === 0) {
         output = "Buzz";
-    } else {
-        output = i;
-    }
+    } 
 
     // Scrivo il risultato al div, con un <br> per andare a capo
     outputDiv.innerHTML += output + "<br>";
