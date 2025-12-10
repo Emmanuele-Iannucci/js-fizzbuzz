@@ -17,4 +17,6 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 così come lo faremmo "a mano"
 */
 
+for (let i = 1; i <= 100; i++)
+
 
